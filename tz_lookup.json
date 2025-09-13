@@ -1,0 +1,19 @@
+{
+  "mappings": {
+    "+1": {
+      "prefixes": {
+        "780": "America/Edmonton",
+        "403": "America/Calgary",
+        "604": "America/Vancouver",
+        "416": "America/Toronto"
+      },
+      "default": "America/New_York"
+    },
+    "+91": {
+      "default": "Asia/Kolkata"
+    },
+    "+44": {
+      "default": "Europe/London"
+    }
+  }
+}
