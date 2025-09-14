@@ -3,6 +3,7 @@
     "+1": {
       "prefixes": {
         "780": "America/Edmonton",
+        "587": "America/Edmonton",
         "403": "America/Calgary",
         "604": "America/Vancouver",
         "416": "America/Toronto"
