@@ -6,7 +6,8 @@
         "587": "America/Edmonton",
         "403": "America/Calgary",
         "604": "America/Vancouver",
-        "416": "America/Toronto"
+        "416": "America/Toronto",
+        "778": "America/Vancouver"
       },
       "default": "America/New_York"
     },

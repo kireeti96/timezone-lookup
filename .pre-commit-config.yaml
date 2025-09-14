@@ -1,0 +1,7 @@
+repos:
+  - repo: local
+    hooks:
+      - id: check-version-bump
+        name: Ensure version.json updated when tz_lookup.json changes
+        entry: bash -c 'if git diff --cached --name-only | grep "tz_lookup.json" && ! git diff --cached --name-only | grep "version.json"; then echo "❌ Update version.json when modifying tz_lookup.json"; exit 1; fi'
+        language: system
